@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "port_step_7s",
+  "info": {
+    "singularName": "port-step-7",
+    "pluralName": "port-step-7s",
+    "displayName": "port-step-7"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numberPage": {
+      "type": "integer"
+    },
+    "port": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "namePort": {
+      "type": "string"
+    },
+    "detailPort": {
+      "type": "text"
+    },
+    "iduser": {
+      "type": "biginteger"
+    },
+    "idPort": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ports",
+  "info": {
+    "singularName": "port",
+    "pluralName": "ports",
+    "displayName": "port"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "age": {
+      "type": "integer"
+    },
+    "idPort": {
+      "type": "biginteger"
+    }
+  }
+}
