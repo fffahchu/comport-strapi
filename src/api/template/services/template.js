@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * login service
+ * template service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::login.login');
+module.exports = createCoreService('api::template.template');

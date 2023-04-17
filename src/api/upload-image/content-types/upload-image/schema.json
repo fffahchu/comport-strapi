@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upload_images",
+  "info": {
+    "singularName": "upload-image",
+    "pluralName": "upload-images",
+    "displayName": "Upload-image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "iduser": {
+      "type": "biginteger"
+    },
+    "nameFile": {
+      "type": "string"
+    }
+  }
+}

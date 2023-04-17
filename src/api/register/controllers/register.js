@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * login controller
+ * register controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::login.login');
+module.exports = createCoreController('api::register.register');
